@@ -3,7 +3,7 @@ import Cigar from "./Cigar";
 import Eletronics from "./Eletronics";
 import Item from "./Item";
 
-export default abstract class Order {
+export default class Order {
 	items: Array<Item>;
 
 	constructor() {

@@ -4,7 +4,7 @@ export default abstract class Item {
 	description: String;
 	price: number;
 
-	constructor(description, price) {
+	constructor(description: string, price: number) {
 		this.description = description;
 		this.price = price;
 	}
