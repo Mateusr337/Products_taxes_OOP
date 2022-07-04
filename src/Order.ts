@@ -4,7 +4,7 @@ import Eletronics from "./Eletronics";
 import Item from "./Item";
 
 export default class Order {
-	items: Array<Item>;
+	public items: Array<Item>;
 
 	constructor() {
 		this.items = [];
