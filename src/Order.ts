@@ -10,7 +10,7 @@ export default class Order {
 		this.items = [];
 	}
 
-	addItem(newItem) {
+	addItem(newItem: Item) {
 		this.items = [...this.items, newItem];
 	}
 
